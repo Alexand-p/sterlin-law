@@ -1,0 +1,113 @@
+.website-description-list-item{
+    margin-left: 0;
+}
+/* .website-description-textarea:nth-child(1){
+    margin-top: 60px;
+}
+.website-description-text-wrapper .website-description-text{
+    margin-top: 60px;
+} */
+.website-description-text-wrapper,.sterling-law{
+    margin-top: 60px;
+}
+
+.description-icon{
+    display: flex;
+    margin-top: 20px;
+    /* position: absolute; */
+    margin-left: 100px;
+}
+.description-icon__wp,.description-icon__html,.description-icon__css{
+    background: #ECECED;
+    border-radius: 80px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+.description-text{
+    display: flex;
+    width: 70%;
+}
+.description-text__item{
+    margin-left: 14%;
+}
+.description-text__item ul,.website-description-task-wrapper ul {
+    list-style-type: none;
+    width: 100%;
+}
+.description-text__item ul li{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.description-text__item ul li:nth-child(-n+2){
+    font-size: 24px;
+}
+.description-text__item p{
+    line-height: 115.02%;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #C6C6C8;
+}
+.stage-work,.site-creat{
+    margin: 150px 100px;
+}
+.tag{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 115.02%;
+    text-transform: uppercase;
+    color: #CC4A3D;
+    margin-bottom: 3.75rem;
+}
+.stage-work-container{
+    display: flex;
+}
+.stage-work-container__item{
+    text-transform: uppercase;
+    color: #C6C6C8;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 115.02%;
+    width: 25%;
+    border-left: 2px solid rgba(204, 74, 61, 0.4);
+    padding: 0px 15px;
+    height: 317px;
+    display: inherit;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.stage-work-container__item ul li{
+    max-width: 65%;
+    list-style-type: none;
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 130%;
+    color: #000000;
+}
+.site-creat-container{
+    width: 41%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: rgba(0, 0, 0, 0.87);
+}
+.site-creat-container p{
+    margin-bottom: 0.75rem;
+}
+.internal-pages__title,.mobile-version__title{
+    display: flex;
+    align-items: center;
+}
+.internal-pages__title p,.mobile-version__title p{
+    margin-left: 170px;
+    padding-top: 20px;
+    max-width: 350px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: rgba(0, 0, 0, 0.87);
+}
