@@ -51,7 +51,7 @@
     font-size: 18px;
     color: #C6C6C8;
 }
-.stage-work,.site-creat{
+.stage-work,.site-creat,.article-dev{
     margin: 150px 100px;
 }
 .tag{
@@ -88,14 +88,14 @@
     line-height: 130%;
     color: #000000;
 }
-.site-creat-container{
+.site-creat-container,.article-dev__item{
     width: 41%;
     font-weight: 400;
     font-size: 24px;
     line-height: 130%;
     color: rgba(0, 0, 0, 0.87);
 }
-.site-creat-container p{
+.site-creat-container p,.article-dev__item p{
     margin-bottom: 0.75rem;
 }
 .internal-pages__title,.mobile-version__title{
@@ -110,4 +110,8 @@
     font-size: 24px;
     line-height: 130%;
     color: rgba(0, 0, 0, 0.87);
+}
+.result-page-text{
+    margin-top: 12px;
+    font-size: 24px;
 }
