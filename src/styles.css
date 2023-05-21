@@ -15,7 +15,7 @@
 }
 
 .website-description-container {
-    margin-top: 103px;
+    padding-top: 103px;
     display: flex;
     width: 97%;
     justify-content: space-between;
@@ -1365,7 +1365,7 @@
     .colors-page-image {
         width: 39%;
         height: 26%;
-        margin-top: 8%;
+        margin-top: 2%;
     }
 
     .colors-page-label-name {
@@ -2133,7 +2133,7 @@
     /* fonts page */
 
     .fonts-page {
-        margin-top: 131px;
+        margin-top: 54px;
     }
 
     .fonts-page-container {

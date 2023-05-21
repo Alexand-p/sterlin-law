@@ -1,3 +1,8 @@
+:root {
+    --main-font-color: rgba(0, 0, 0, 0.87);
+    --main-fontBig-size:24px;
+    --main-fontLit-size:18px;
+  }
 .website-description-list-item{
     margin-left: 0;
 }
@@ -13,9 +18,11 @@
 
 .description-icon{
     display: flex;
-    margin-top: 20px;
-    /* position: absolute; */
     margin-left: 100px;
+}
+.description-icon__container{
+    display: flex;
+    margin-top: 20px;
 }
 .description-icon__wp,.description-icon__html,.description-icon__css{
     background: #ECECED;
@@ -43,12 +50,12 @@
     margin-bottom: 15px;
 }
 .description-text__item ul li:nth-child(-n+2){
-    font-size: 24px;
+    font-size: var(--main-fontBig-size);
 }
 .description-text__item p{
     line-height: 115.02%;
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: var(--main-fontLit-size);
     color: #C6C6C8;
 }
 .stage-work,.site-creat,.article-dev{
@@ -69,7 +76,7 @@
     text-transform: uppercase;
     color: #C6C6C8;
     font-weight: 700;
-    font-size: 24px;
+    font-size: var(--main-fontBig-size);
     line-height: 115.02%;
     width: 25%;
     border-left: 2px solid rgba(204, 74, 61, 0.4);
@@ -83,7 +90,8 @@
     max-width: 65%;
     list-style-type: none;
     margin-bottom: 12px;
-    font-size: 18px;
+    font-size: var(--main-fontLit-size
+    );
     font-weight: 400;
     line-height: 130%;
     color: #000000;
@@ -91,9 +99,9 @@
 .site-creat-container,.article-dev__item{
     width: 41%;
     font-weight: 400;
-    font-size: 24px;
+    font-size: var(--main-fontBig-size);
     line-height: 130%;
-    color: rgba(0, 0, 0, 0.87);
+    color: var(--main-font-color);
 }
 .site-creat-container p,.article-dev__item p{
     margin-bottom: 0.75rem;
@@ -107,11 +115,11 @@
     padding-top: 20px;
     max-width: 350px;
     font-weight: 400;
-    font-size: 24px;
+    font-size: var(--main-fontBig-size);
     line-height: 130%;
-    color: rgba(0, 0, 0, 0.87);
+    color: var(--main-font-color);
 }
 .result-page-text{
     margin-top: 12px;
-    font-size: 24px;
+    font-size: var(--main-fontBig-size);
 }
