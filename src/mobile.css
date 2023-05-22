@@ -1,6 +1,16 @@
 @media (max-width:767px) {
+    .description-icon__wp, .description-icon__html, .description-icon__css{
+       margin-right: 0;
+    }
+    .description-icon__container{
+        justify-content: space-around;
+        width: 95%;
+    }
     .description-icon{
-        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
     }
     .description-text__item{
         margin-left: 0;
@@ -8,14 +18,59 @@
     }
     .stage-work-container{
         flex-direction: column;
+        
+    }
+    .description-text{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 95%;
+        margin-top: 25px;
+        margin-left: 20px;  
+    }
+    .description-text__item p{
+        margin-bottom: 10px;
+    }
+    .stage-work, .site-creat, .article-dev{
+        margin: 60px 20px;
     }
     .stage-work-container__item{
         width: 100%;
+        gap: 70px;
         flex-direction: row-reverse;
         border-left: none;
         border-top: 2px solid rgba(204, 74, 61, 0.4);
+        padding: 10px 0;
+        justify-content: space-between !important;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .tag {
+        margin-bottom: 1.875rem;
+    }
+    .stage-work-container__item ul li{
+        max-width: 100%;
+        text-transform: capitalize;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 130%;
+    }
+    .stage-work-container__item p{
+        white-space: nowrap;
     }
     .site-creat-container, .article-dev__item{
         width: 100%;
+    }
+
+
+
+
+
+
+
+
+    /* временные решения чтобы не сбивали сетку убрали текст который отталкивает блоки в моб версии*/
+    .internal-pages__title p, .mobile-version__title p {
+        margin-left: 0;
+        display: none;
     }
 }
