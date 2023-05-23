@@ -1084,7 +1084,8 @@
 }
 
 .consultation-form-checkboxes {
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-areas: "1 2 3";
     margin-top: 20px;
 }
 
