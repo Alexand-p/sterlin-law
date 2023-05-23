@@ -12,6 +12,9 @@
 .website-description-text-wrapper .website-description-text{
     margin-top: 60px;
 } */
+.website-description-images-mob{
+    display: none;
+}
 .website-description-text-wrapper,.sterling-law{
     margin-top: 60px;
 }

@@ -2,6 +2,25 @@
     .description-icon__wp, .description-icon__html, .description-icon__css{
        margin-right: 0;
     }
+    .website-description-container{
+        padding-top: 0;
+    }
+    .website-description-text-wrapper, .sterling-law{
+        margin-top: 20px;
+    }
+    .website-description-list{
+        margin-left: 0;
+    }
+    .website-description-image{
+        display: none;
+    }
+    .website-description-images-mob{
+        display: block;
+        width: 360px;
+        height: 450px;
+        margin-left: -17px;
+        margin-top: 25px;
+    }
     .description-icon__container{
         justify-content: space-around;
         width: 95%;
@@ -46,6 +65,7 @@
     }
     .tag {
         margin-bottom: 1.875rem;
+        font-size: 14px;
     }
     .stage-work-container__item ul li{
         max-width: 100%;
@@ -60,11 +80,20 @@
     .site-creat-container, .article-dev__item{
         width: 100%;
     }
+    .description-text__item ul li:nth-child(-n+2),.site-creat-container p, .article-dev__item p,.result-page-text{
+        font-size: 18px;
+    }
+    
 
 
-
-
-
+    .main-page-label-name,.internal-pages-label-name,.colors-page-label-name,.mobile-version-page-label-name,.fonts-page-label-name,.menu-page-label-name{
+        font-size: 40px;
+    }
+    .consultation-form-checkboxes {
+        margin: 0;
+        display: grid;
+        grid-template-areas: "1 2 3";
+    }
 
 
 
