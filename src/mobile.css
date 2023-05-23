@@ -96,10 +96,18 @@
     }
 
 
-
+    .fonts-page{
+        display: none;
+    }
     /* временные решения чтобы не сбивали сетку убрали текст который отталкивает блоки в моб версии*/
     .internal-pages__title p, .mobile-version__title p {
-        margin-left: 0;
-        display: none;
+        margin-left: 20px;
+        font-size: 18px;
+        max-width: 250px;
+        padding-top: 10px;
+    }
+    .internal-pages__title, .mobile-version__title{
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
