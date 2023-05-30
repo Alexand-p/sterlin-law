@@ -7391,3 +7391,28 @@
     }
 
 }
+
+.link-language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: 
+		radial-gradient(ellipse farthest-corner at right bottom, #fedb37 0%, #FDB931 8%, #9f7928 30%, #8a6e2f 40%, transparent 80%),
+		radial-gradient(ellipse farthest-corner at left top, #ffffff 0%, #ffffac 8%, #d1b464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+}
+.link-language a{
+    background: linear-gradient(45deg, #F17C58, #E94584, #24AADB, #27DBB1, #FFDC18, #FF3706);
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    text-decoration: none;
+    margin: 10px 20px;
+    font-size: 25px;
+    color: #26252A;
+    border-radius: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid grey;
+}
